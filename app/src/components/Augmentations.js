@@ -5,10 +5,12 @@ import Augmentation from './Augmentation'
 
 const styles = theme => ({
     paper: {
-        margin: theme.spacing(8, 4),
-        display: 'flex',
-        flexDirection: 'column',
+        // margin: theme.spacing(8, 4),
+        // display: 'flex',
+        // flexDirection: 'column',
         alignItems: 'center',
+        height: '100vh',
+        overflow: 'scroll'
     },
 })
 

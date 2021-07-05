@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 
 const styles = theme => ({
     root: {
-        overflow: 'hidden',
-        height: '1000px',
+        height: '100vh',
+        overflow: 'scroll'
     },
     image: {
         width: '100%',
